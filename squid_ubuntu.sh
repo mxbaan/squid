@@ -3,12 +3,9 @@
 # <UDF name="squid_password" Label="Proxy Password" />
 # Squid Proxy Server
 # Author: admin@hostonnet.com
-# Blog: https://blog.hostonnet.com
-# Edits: Khaled AlHashem
-# Site: https://knaved.com
 
-squid_user=
-squid_password=
+squid_user=root
+squid_password=root
 
 /usr/bin/apt update
 /usr/bin/apt -y install apache2-utils squid3
